@@ -5,8 +5,9 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - Entry point                                                                                      
- * Description: Prints if a number is negative or positive.
+ * main - Entry point
+ * Description: Prints if a number is 
+ * negative or positive.
  * Return: 0
  */
 int main(void)
