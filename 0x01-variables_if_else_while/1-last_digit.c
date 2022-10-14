@@ -5,9 +5,10 @@
 
 /* betty style doc for function main goes there */
 /**
- * main -Entry point
+ * main - Entry point
  * Description: Assigns a random number to the
  * variable n
+ * Return 0
  */
 int main(void)
 {
