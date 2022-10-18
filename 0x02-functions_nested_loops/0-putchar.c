@@ -4,9 +4,9 @@
  *  Description: Prints _putchar
  *  Return: Always 0 (success)
  */
-int main(void)
+int main(write)
 {
-	fwrite("_putchar");
+	write("_putchar");
 	return(0);
 }
 
