@@ -4,7 +4,7 @@
  *  Description: Prints _putchar
  *  Return: Always 0 (success)
  */
-int main(write)
+int main(void)
 {
 	write("_putchar");
 	return(0);
