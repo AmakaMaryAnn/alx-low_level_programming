@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include "main"
+#include <unisted.h>
 /**
- * main - Entry point
- *  Description: Prints _putchar
- *  Return: Always 0 (success)
+ * _putchar - writes the character c to stdout
+ *  @c: the character to print
+ *  Return: Always 1 (success)
  */
-int main(void)
+int _putchar(char c)
 {
-	fwrite("_putchar");
-	return(0);
+	return(write(1, &c, 1));
 }
 
