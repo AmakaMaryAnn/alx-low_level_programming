@@ -5,16 +5,36 @@
  * multiplies of 3 or 5
  * Return: Always 0(success)
  */
-int main(void)
+void print_to_98(int n)
 {
-	int a, b;
-
-	for (a = 1; a < 1024; a++)
+	if (n < 98)
 	{
-		if ((a % 3) == 0 || (a % 5) == 0)
-			b += a;
+		while (n <= 98)
+		{
+			printf("%d", n);
+			if (n != 98)
+			{
+				printf(", ");
+			}
+			n++;
+		}
 	}
-	printf("%d\n", b);
-	return (0);
+	else if (n > 98)
+	{
+		while (n >= 98)
+		{
+			printf("%d", n);
+			if (n != 98)
+			{
+				printf(", ");
+			}
+			n--;
+		}
+	}
+	else
+{
+	printf("98");
+}
+printf("\n");
 }
 
