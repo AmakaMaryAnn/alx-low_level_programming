@@ -1,4 +1,4 @@
-h#include "main.h"
+#include "main.h"
 
 /**
  * print_line - prints straight line n times
